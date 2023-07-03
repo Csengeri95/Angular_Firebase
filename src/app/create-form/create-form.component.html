@@ -1,0 +1,12 @@
+<form>
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" name="quote" placeholder="Idézet" autocomplete="off" [(ngModel)]="this.actualQuote">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" name="author" placeholder="Szerző" autocomplete="off" [(ngModel)]="this.actualAuthor">
+        </div>
+
+        <button (click)="add()" class="btn btn-success mt-4">Hozzáadás</button>
+    </div>
+</form>

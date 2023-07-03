@@ -1,0 +1,15 @@
+<div class="container text-center">
+    <h1 class="mt-4">Üdvözlöm a felületen!</h1>
+    <h2>A lapon idézeteket tud megjeleníteni, elsőként írja be a kívánt idézetet, majd a szerzőt.
+    </h2>
+    <h2 class="text-danger">A tartalom a jobb
+        oldalon jelenik meg!</h2>
+
+    <div class="row mt-5">
+        <app-create-form class="col-md-4"></app-create-form>
+        <app-list class="col-md-8"></app-list>
+    </div>
+
+
+    <button (click)="this.auth.logout()" class="btn btn-danger fs-5 mt-4">Kilépés</button>
+</div>

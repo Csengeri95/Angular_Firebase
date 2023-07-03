@@ -1,0 +1,13 @@
+
+tr,
+th,
+td {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    padding: 5px;
+}
+
+
+
+.td {
+    word-break: break-all;
+}
